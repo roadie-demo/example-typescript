@@ -7,7 +7,10 @@ metadata:
   annotations:
     github.com/project-slug: roadie-demo/example-typescript
     backstage.io/techdocs-ref: dir:. 
-    
+  links:
+    - test-plan:
+      url: https://roadie.io
+      title: Test Plan
     
 spec:
   type: service
