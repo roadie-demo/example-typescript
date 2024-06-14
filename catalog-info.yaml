@@ -8,9 +8,9 @@ metadata:
     github.com/project-slug: roadie-demo/example-typescript
     backstage.io/techdocs-ref: dir:. 
   links:
-    - test-plan:
+    - title: Test Plan
       url: https://roadie.io
-      title: Test Plan
+      type: test-plan
     
 spec:
   type: service
