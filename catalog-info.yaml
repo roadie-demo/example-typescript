@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-typescript
+  title: example-typescript
+  description: An example typescript for Codecov validation
+  annotations:
+    github.com/project-slug: roadie-demo/example-typescript
+    backstage.io/techdocs-ref: dir:. 
+    
+    
+spec:
+  type: service
+  owner: group:default/pov
+  lifecycle: production
