@@ -36,6 +36,10 @@ metadata:
   description: typescript things to teleprompt.
 spec:
   owner: group:roadie-demo/engineering
+  lifecycle: production
+  system: typescript-system
+  dependsOn:
+    - Resource:typescript-s3-bucket
 
 ---
 apiVersion: backstage.io/v1alpha1
