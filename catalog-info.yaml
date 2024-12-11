@@ -14,7 +14,7 @@ metadata:
     
 spec:
   type: service
-  owner: group:default/pov
+  owner: group:roadie-demo/solutions
   lifecycle: production
 
 ---
