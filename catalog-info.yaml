@@ -23,8 +23,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: Petstore API
-  description: The Petstore REST API
+  name: example-typescript-api
+  description: The Example Typescript REST API
 spec:
   type: openapi
   lifecycle: production
