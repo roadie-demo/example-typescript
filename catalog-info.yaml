@@ -19,6 +19,20 @@ spec:
   tier: 0
 
 ---
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: Petstore API
+  description: The Petstore REST API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:roadie-demo/solutions
+  definition:
+    $openapi: s3://badwolf-api-spec-bucket/swagger.json
+
+---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
