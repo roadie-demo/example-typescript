@@ -30,7 +30,7 @@ spec:
   lifecycle: production
   owner: group:roadie-demo/solutions
   definition:
-    $openapi: s3://badwolf-api-spec-bucket/swagger.json
+    $openapi: https://badwolf-api-spec-bucket.s3.eu-west-1.amazonaws.com/swagger.json
 
 ---
 apiVersion: backstage.io/v1alpha1
