@@ -16,6 +16,7 @@ spec:
   type: service
   owner: group:roadie-demo/solutions
   lifecycle: production
+  tier: 0
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -27,7 +28,6 @@ spec:
   type: s3-bucket
   owner: group:roadie-demo/engineering
   system: typescript-system
-  tier: 0
 
 ---
 apiVersion: backstage.io/v1alpha1
