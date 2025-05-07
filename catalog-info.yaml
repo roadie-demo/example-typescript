@@ -27,6 +27,7 @@ spec:
   type: s3-bucket
   owner: group:roadie-demo/engineering
   system: typescript-system
+  tier: 0
 
 ---
 apiVersion: backstage.io/v1alpha1
