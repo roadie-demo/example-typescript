@@ -6,7 +6,8 @@ metadata:
   description: An example typescript for Codecov validation
   annotations:
     github.com/project-slug: roadie-demo/example-typescript
-    backstage.io/techdocs-ref: dir:. 
+    backstage.io/techdocs-ref: dir:.
+    pagerduty.com/schedule-id: PVPDKQT
   links:
     - title: Test Plan
       url: https://roadie.io
