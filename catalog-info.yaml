@@ -17,6 +17,7 @@ spec:
   type: service
   owner: group:roadie-demo/solutions
   lifecycle: production
+  system: typescript-system
   tier: 0
 
 ---
