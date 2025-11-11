@@ -8,6 +8,8 @@ metadata:
     github.com/project-slug: roadie-demo/example-typescript
     backstage.io/techdocs-ref: dir:.
     pagerduty.com/schedule-id: PVPDKQT
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=sample-service'
+    newrelic.com/dashboard-guid: 'MzcwMjEwN3xWSVp8REFTSEJPQVJEfGRhOjkwMDk4'
   links:
     - title: Test Plan
       url: https://roadie.io
