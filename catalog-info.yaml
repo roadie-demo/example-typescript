@@ -21,6 +21,11 @@ spec:
   lifecycle: production
   system: typescript-system
   tier: 0
+  chronoInsight:
+    productName: MagicAnalyzr
+    version: "14.7.13"
+    enabled: true
+    retentionPolicy: 60
 
 ---
 
