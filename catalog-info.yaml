@@ -26,6 +26,67 @@ spec:
     version: "14.7.13"
     enabled: true
     retentionPolicy: 60
+  costInsights:
+    enabled: true
+    currency: USD
+    budgetAlert:
+      threshold: 1000
+      period: monthly
+    costCenter: engineering-typescript
+    tags:
+      - environment: production
+      - team: solutions
+      - project: example-typescript
+  trustedAdvisors:
+    - name: security-advisor
+      type: security
+      enabled: true
+      recommendations:
+        - vulnerability-scanning
+        - dependency-updates
+        - security-policies
+    - name: performance-advisor
+      type: performance
+      enabled: true
+      recommendations:
+        - resource-optimization
+        - caching-strategies
+        - monitoring-alerts
+    - name: cost-advisor
+      type: cost
+      enabled: true
+      recommendations:
+        - rightsizing
+        - reserved-instances
+        - unused-resources
+  valueStream:
+    name: typescript-delivery-stream
+    stages:
+      - name: development
+        duration: 2-3 days
+        metrics:
+          - lead-time
+          - cycle-time
+      - name: testing
+        duration: 1-2 days
+        metrics:
+          - test-coverage
+          - defect-rate
+      - name: deployment
+        duration: 30 minutes
+        metrics:
+          - deployment-frequency
+          - change-failure-rate
+      - name: monitoring
+        duration: ongoing
+        metrics:
+          - mttr
+          - availability
+    kpis:
+      leadTime: 5 days
+      deploymentFrequency: daily
+      changeFailureRate: 5%
+      meanTimeToRestore: 2 hours
 
 ---
 
