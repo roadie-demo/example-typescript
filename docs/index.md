@@ -2,6 +2,8 @@
 
 ## What is this?
 
+Now with an inline edit.
+
 This is a placeholder TechDocs page. Here you will write your technical documentation for your software. This supports markdown, so get styling!
 
 ## Some Cool Features
